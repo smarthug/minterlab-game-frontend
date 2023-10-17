@@ -2,8 +2,6 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import BadgaGiver from "../components/BadgeGiver";
-import DaisyTest from "../components/DaisyTest";
 
 const Home: NextPage = () => {
   return (
