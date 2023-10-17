@@ -5,6 +5,12 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 // const { data: walletClient, isError, isLoading } = useWalletClient()
 
+declare global {
+  interface Window {
+    ethereum?: any;
+  }
+}
+
 export default function UUID() {
   const pathname = usePathname();
   console.log(pathname);
