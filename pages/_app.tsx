@@ -11,12 +11,14 @@ import {
   polygon,
   base,
   zora,
-  cronosTestnet
+  cronosTestnet,
+  polygonMumbai
 } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [
+    polygonMumbai,
     cronosTestnet,
     mainnet,
     polygon,
